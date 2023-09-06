@@ -34,6 +34,7 @@ const App = () => {
       const searchResponse = await TVShowAPI.fetchByTitle(title);
       if (searchResponse.length > 0) {
         setCurrentTVShow(searchResponse[0]);
+        setTVShowList(searchResponse);
       }
     } catch (err) {
       alert('Something went wrong');

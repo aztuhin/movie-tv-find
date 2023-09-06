@@ -23,6 +23,7 @@ const options = {
 
 
 export class TVShowAPI {
+  
   static async fetchPopulars(key) {
    let tvMovie = 'tv'
     if (key === 'Movie') {
@@ -39,10 +40,11 @@ export class TVShowAPI {
       console.error('error:' + err);
     }
   }
+
   static async fetchByTitle(title) {
     try {
       const res = await fetch(
-        `${BASE_URL}search/tv?query=${title}`,
+        `${BASE_URL}search/multi?query=${title}`,
         options
       );
       const json = await res.json();
