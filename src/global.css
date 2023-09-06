@@ -1,0 +1,14 @@
+body {
+  color: white;
+  font-family: Maximum Impact;
+}
+
+::-webkit-scrollbar {
+background: transparent;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+background:  rgb(0, 0, 0.2);
+border-radius: 10px;
+opacity: 0.3;
+}

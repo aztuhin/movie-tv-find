@@ -1,0 +1,21 @@
+.container {
+display: flex;
+cursor: pointer;
+}
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.title {
+font-size: 25px;
+font-weight: 400;
+padding: 5px;
+padding-left: 5px;
+}
+
+.subtitle {
+margin-left: 5px;
+white-space: nowrap;
+}

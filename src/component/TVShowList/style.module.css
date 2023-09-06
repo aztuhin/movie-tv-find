@@ -1,0 +1,21 @@
+.tvShowList__container {
+  cursor: pointer;
+}
+.tvShowList__item {
+  margin-right: 20px;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+}
+.tvShowList__list {
+display: flex;
+width: 100vw - 10px;
+overflow-x: hidden;
+}
+
+.tvShowList__list:hover {
+  overflow: overlay;
+}
